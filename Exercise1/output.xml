@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.0 on win32)" generated="20220323 12:07:18.740" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="C:\Users\emmer\Desktop\docs\thomasMore\vakkenKwartaal7\testing\projects\robot_tests-main\Exercise1\tests">
+<suite id="s1-s1" name="Eigen Test" source="C:\Users\emmer\Desktop\docs\thomasMore\vakkenKwartaal7\testing\projects\robot_tests-main\Exercise1\tests\eigen_test.robot">
+<test id="s1-s1-t1" name="Hello World">
+<kw name="Log" library="BuiltIn">
+<arg>Hello World!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220323 12:07:18.756" level="INFO">Hello World!</msg>
+<status status="PASS" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.756"/>
+</kw>
+<status status="PASS" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.756"/>
+</test>
+<test id="s1-s1-t2" name="Failing Hello World!">
+<kw name="Log" library="BuiltIn">
+<arg>Hello World!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220323 12:07:18.756" level="INFO">Hello World!</msg>
+<status status="PASS" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.756"/>
+</kw>
+<kw name="Fail" library="BuiltIn">
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<msg timestamp="20220323 12:07:18.756" level="FAIL">AssertionError</msg>
+<status status="FAIL" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.756"/>
+</kw>
+<status status="FAIL" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.756">AssertionError</status>
+</test>
+<status status="FAIL" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.756"/>
+</suite>
+<suite id="s1-s2" name="Hello" source="C:\Users\emmer\Desktop\docs\thomasMore\vakkenKwartaal7\testing\projects\robot_tests-main\Exercise1\tests\hello.robot">
+<test id="s1-s2-t1" name="Hello World">
+<kw name="Log" library="BuiltIn">
+<arg>Hello World!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220323 12:07:18.771" level="INFO">Hello World!</msg>
+<status status="PASS" starttime="20220323 12:07:18.771" endtime="20220323 12:07:18.771"/>
+</kw>
+<status status="PASS" starttime="20220323 12:07:18.771" endtime="20220323 12:07:18.771"/>
+</test>
+<status status="PASS" starttime="20220323 12:07:18.756" endtime="20220323 12:07:18.771"/>
+</suite>
+<status status="FAIL" starttime="20220323 12:07:18.740" endtime="20220323 12:07:18.771"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="1" skip="0" id="s1-s1" name="Eigen Test">Tests.Eigen Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Hello">Tests.Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
